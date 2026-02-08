@@ -54,7 +54,6 @@ export const createWorkspaceNavigation = (segments: string[], workspace: Workspa
       href: `${basePath}/projects`,
       label: "Projects",
       active: segments.at(1) === "projects",
-      hidden: !workspace?.betaFeatures.deployments,
       tag: <Tag label="Beta" className="mr-2 group-hover:bg-gray-1" />,
     },
     {

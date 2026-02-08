@@ -1,6 +1,6 @@
 import { cn } from "@unkey/ui/src/lib/utils";
 import type { ReactNode } from "react";
-import { DisabledWrapper } from "../../../components/disabled-wrapper";
+import { DisabledWrapper } from "@/components/disabled-wrapper";
 import type { DetailItem } from "./sections";
 
 type DetailRowProps = {
